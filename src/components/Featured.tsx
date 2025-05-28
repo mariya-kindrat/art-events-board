@@ -1,6 +1,4 @@
 "use client"
-
-
 import { useRef, type FC } from "react"
 import { FUTURE_EVENTS_DATA } from "../store/dummy-store/data"
 import { ArrowBackIos, ArrowForwardIos } from '@mui/icons-material';
@@ -18,7 +16,6 @@ const Featured: FC = () => {
       scrollRef.current.scrollTo({ left: scrollTo, behavior: "smooth" })
     }
   }
-
 
   return (
     <div className="relative w-full px-6 py-10 bg-[#f8f6f2]">

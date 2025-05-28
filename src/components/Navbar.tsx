@@ -2,8 +2,6 @@ import React from 'react'
 import Events from './Events';
 import Link from 'next/link';
 import CartIcon from './CartIcon';
-import Image from 'next/image';
-import phoneIcon from "../../public/temporary/phone.png"
 
 const Navbar = () => {
 
@@ -28,8 +26,6 @@ const Navbar = () => {
       {/* RIGHT LINKS*/}
       <div className='hidden md:flex gap-4 items-center justify-end flex-1'>
         <div className='md:absolute top-3 r-2 lg:static flex items-center gap-2 cursor-pointer bg-gray-300 rounded-md'>
-          <Image src={phoneIcon} alt="" width={20} height={20} />
-          <span className='font-bold'>123 456 768</span>
         </div>
         {!user ? (
           <Link href="/login">Login</Link>

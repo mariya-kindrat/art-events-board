@@ -20,12 +20,10 @@ const SingleEvent = () => {
 
   return (
     <div className='p-4 lg:px-20 xl:px-40 min-h-screen flex flex-col md:flex-row justify-around items-center text-amber-800 gap-3 md:gap-4 lg:gap-8 bg-amber-50'>
-      {/* IMAGE CONTAINER */}
       <div className='relative w-full h-1/2 md:w-1/2 md:h-[80vh]'>
         <Image src={event.image} alt={event.title} className='object-cover rounded-lg' fill />
       </div>
 
-      {/* TEXT CONTAINER */}
       <div className='h-1/2 flex flex-col gap-4 md:w-1/2 md:h-[80vh] justify-center items-center'>
         <h1 className='text-3xl font-bold uppercase'>{event.title}</h1>
         <p className="text-sm text-gray-700 text-center">{event.description}</p>
