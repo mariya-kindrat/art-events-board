@@ -150,7 +150,7 @@ const EventsBoardPage = () => {
                     transition: "background-color 0.3s ease",
                   }}
                 >
-                  Discover
+                  More
                 </Button>
               </CardActions>
             </CardContent>

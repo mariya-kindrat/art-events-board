@@ -38,36 +38,3 @@ const CategoryPage = () => {
 }
 
 export default CategoryPage;
-
-
-// <div className='flex  text-amber-50'>
-//   {FUTURE_EVENTS_DATA.map((event) => (
-//     <Link className='' href={`/event/${event.id}`} key={event.id}>
-//       <Card className='h-full' sx={{ maxWidth: 345, margin: 2, backgroundColor: 'background.paper', color: 'text.primary' }}>
-//         <CardActionArea>
-//           <CardMedia className=''
-//             component="img"
-//             height="140"
-//             image={event.image}
-//             alt={event.title}
-//             sx={{ height: 200, objectFit: 'cover' }}
-//           />
-//           <CardContent className='flex flex-col items-center justify-around'>
-//             <Typography className='h-1/2' gutterBottom variant="h5" component="div" sx={{ color: 'text.primary' }}>
-//               {event.title}
-//             </Typography>
-//             <Typography className='h-1/2' variant="body2" sx={{ color: 'text.secondary' }}>
-//               {event.description}
-//             </Typography>
-//           </CardContent>
-//         </CardActionArea>
-//         <CardActions>
-//           <Button size="small" color="primary">
-//             EXPLORE
-//           </Button>
-//         </CardActions>
-//       </Card>
-//     </Link>
-//   ))
-//   }
-// </div>

@@ -17,7 +17,6 @@ const Contact = () => {
         backgroundColor: "#fefefe",
       }}
     >
-      {/* Photo Section */}
       <Box sx={{ width: "100%", maxWidth: 700 }}>
         <Box sx={{ position: "relative", width: "100%", height: 300, borderRadius: 2, overflow: "hidden", mb: 2 }}>
           <Image
@@ -30,8 +29,6 @@ const Contact = () => {
           />
         </Box>
       </Box>
-
-      {/* Info Section */}
       <Box
         sx={{
           width: "100%",
@@ -44,7 +41,6 @@ const Contact = () => {
           gap: 4,
         }}
       >
-        {/* Contact */}
         <Box>
           <Typography variant="subtitle1" fontWeight={600} gutterBottom>
             CONTACT
